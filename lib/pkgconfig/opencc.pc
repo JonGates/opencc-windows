@@ -1,0 +1,11 @@
+prefix=D:/Users/Prcuvu/Source/Builds/opencc-1.0.4
+exec_prefix=${prefix}
+libdir=D:/Users/Prcuvu/Source/Builds/opencc-1.0.4/lib/
+includedir=D:/Users/Prcuvu/Source/Builds/opencc-1.0.4/include/
+
+Name: opencc
+Description: Open Chinese Convert
+Version: 1.0.4
+Requires:
+Libs: -L${libdir} -lopencc
+Cflags: -I${includedir}/opencc
